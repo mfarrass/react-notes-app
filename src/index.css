@@ -16,14 +16,20 @@ code {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	font-family: 'Quicksand';
 }
 
 .dark-mode {
-	background-color: black;
+	background: linear-gradient(90deg, rgba(0,0,0,1) 33%, rgba(59,59,59,1) 100%);
 }
 
 .dark-mode h1 {
 	color: white;
+}
+
+.dark-mode .note {
+	background-color: white;
+	color: black; 
 }
 
 .container {
@@ -67,7 +73,8 @@ textarea:focus {
 }
 
 .save:hover {
-	background-color: #FEF68A;
+	background-color: #000000;
+	color: white;
 	cursor: pointer;
 }
 	
