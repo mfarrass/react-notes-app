@@ -20,7 +20,7 @@ const App = () => {
       },
       {
         id: nanoid(),
-        text: "This is my 17. React notes App!",
+        text: "This is my third note!",
         date: "28/04/2021"
       },
       {
