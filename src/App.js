@@ -20,7 +20,7 @@ const App = () => {
       },
       {
         id: nanoid(),
-        text: "This is my third note!",
+        text: "This is my 17. React notes App!",
         date: "28/04/2021"
       },
       {
@@ -87,4 +87,3 @@ const App = () => {
 
 export default App
 
-// 1.07.40 Toogling dark mode
